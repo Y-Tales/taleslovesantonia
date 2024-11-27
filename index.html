@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eu e Você</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Antonia, eu sou louco por você! ❤️</h1>
+
+    <!-- Timer -->
+    <div id="timer" class="timer"></div>
+
+    <!-- Foto Principal -->
+    <img src="sua-foto.jpg" alt="Foto de nós dois" class="photo">
+
+    
+    <!-- Carrossel -->
+    <div class="carousel">
+      <div class="slides">
+        <!-- Vídeo como a primeira "foto" -->
+        <video autoplay muted loop class="carousel-video">
+          <source src="foto1.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos.
+        </video>
+        <img src="foto2.jpeg" alt="Foto 2">
+        <img src="foto3.jpeg" alt="Foto 3">
+        <img src="foto4.jpeg" alt="Foto 4">
+      </div>
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+    </div>
+
+    <!-- Poema -->
+    <div class="poem">
+      <p>Nos seus olhos vejo o luar,<br>
+      Brilhando forte, a me guiar.<br>
+      No silêncio, ouço o mar,<br>
+      Que me convida a te amar.</p>
+
+      <p>Cada gesto a me encantar,<br>
+      Tua voz doce a ecoar.<br>
+      Meu coração quer te chamar,<br>
+      E por você, sempre estará.</p>
+
+      <p>Seu sorriso, meu despertar,<br>
+      Tua presença, meu lugar.<br>
+      De ti, nunca vou cansar,<br>
+      Pois em teus braços quero estar.</p>
+    </div>
+
+    <div class="message">
+      <p>Cada segundo com você é mágico. 💖</p>
+    </div>
+  </div>
+  <!-- Botão de Música -->
+  <button id="playMusic" class="music-btn">🎵 Ouvir nossa música 🎵</button>
+
+
+  <!-- Música -->
+  <audio id="music" preload="auto">
+    <source src="toquinho-o-velho-e-a-flor.mp3.mp3" type="audio/mpeg">
+    Seu navegador não suporta reprodução de áudio.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
